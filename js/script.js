@@ -1,8 +1,8 @@
 //typing animation
 var typed= new Typed(".typing", {
-    strings: ["","Casino Dealer","Computer Science Student","YouTuber"],
-    typeSpeed:100,
-    backSpeed:60,
+    strings: ["","Computer Science Student","Motorcycle Enthusiast"],
+    typeSpeed:50,
+    backSpeed:40,
     loop:true
 })
 //Aside
@@ -56,7 +56,6 @@ const nav=document.querySelector(".nav"),
     }
     document.querySelector(".hire-me").addEventListener("click", function(){
         const sectionIndex=this.getAttribute("data-section-index");
-        //console.log(sectionIndex);
         showSection(this);
         updateNav(this);
         removeBackSection();
