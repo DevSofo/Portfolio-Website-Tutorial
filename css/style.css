@@ -47,7 +47,6 @@ ul {
     bottom: 0;
     z-index: 0;
     overflow-y: auto;
-    overflow: hidden;
     transition: all 0.3s ease;
 }
 .section.back-section {
@@ -68,10 +67,6 @@ ul {
     {
         transform: translateX(0%);
     }
-}
-
-.hidden {
-    display: none !important;
 }
 
 .padd-15 {
@@ -440,8 +435,7 @@ h3.my-profession{
 .about .about-content .experience {
     flex: 0 0 50%;
     max-width: 50%;
-    margin-top: 30px;
-   
+    margin-top: 30px; 
 }
 
 .about .about-content h3.title {
